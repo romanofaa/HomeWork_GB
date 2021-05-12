@@ -4,7 +4,8 @@ __pycache__/
 *$py.class
 .idea/
 Interpreter/
-main_3.*
+main_3.py
+main_4.py
 # C extensions
 *.so
 
