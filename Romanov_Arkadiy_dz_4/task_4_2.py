@@ -1,4 +1,5 @@
 import requests
+from datetime import datetime
 
 def currency_rates(money):
     if money not in list_money: return None
@@ -20,6 +21,7 @@ for idx in range(1, len(content)):
 
 money = input('\nenter the currency from the given list or enter "0": ')
 money = money.upper()
+today = datetime.now()
 result = currency_rates(money)
 
-print(f'exchange rate {money} today is equal to {result}')
+print(f'exchange rate {money} at {today} is equal to {result}')
