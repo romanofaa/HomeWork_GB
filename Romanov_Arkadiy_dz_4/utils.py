@@ -1,5 +1,3 @@
-
-
 def currency_rates(money):
     import requests
     money = money.upper()
